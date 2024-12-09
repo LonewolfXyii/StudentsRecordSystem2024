@@ -696,16 +696,30 @@ def forGraph(graphframe):
 
 def create_bar_graph(graphgrades):
     global graphactivities
-    fig, ax = plt.subplots(figsize=(2, 1.5))
+    fig, bartabl = plt.subplots(figsize=(2, 1.5))
     fig.patch.set_facecolor("grey")
-    ax.barh(graphactivities, graphgrades, color=colors)
-    ax.set_xlim(0, 100)
-    ax.set_xlabel("Grades", fontsize=4, color="red")  
-    ax.set_title("Grades in Assignments, Quizzes, and Exams", fontsize=6, color="red")
-    ax.tick_params(axis="both", which="major", labelsize=4, colors="red")
-    ax.grid(axis="x", linestyle="--", alpha=0.7)
-    ax.set_facecolor("grey")
+    bartabl.barh(graphactivities, graphgrades, color=colors)
+    bartabl.set_xlim(0, 100)
+    bartabl.set_xlabel("", fontsize=4, color="red")  
+    bartabl.set_title("Grades in Assignments, Quizzes, and Exams", fontsize=6, color="red")
+    bartabl.tick_params(axis="both", labelsize=4, colors="red")
+    bartabl.grid(axis="x", linestyle="--", alpha=0.7)
+    bartabl.set_facecolor("grey")
     return fig
+
+
+## UPDATE COURSES ##
+def COURSES_UPDATE():
+    topwindow_courses = CTR.CTkToplevel()
+    topwindow_courses.title("EDIT STUDENT COURSES")
+    
+    my_font_Btn2= CTR.CTkFont(family="Small Fonts", size=18, weight="bold")
+
+    btn_add_course = CTR.CTkButton(topwindow_courses, text="ADD A COURSE FOR STUDENT", font=my_font_Btn2)
+    btn_add_course.pack(pady=20)
+
+    btn_add_grades = CTR.CTkButton(topwindow_courses, text="ADD ACTIVITY GRADES", font=my_font_Btn2)
+    btn_add_grades.pack(pady=20)
 
 ## FOR FUN ##
 
