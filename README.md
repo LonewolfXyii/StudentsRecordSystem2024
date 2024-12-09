@@ -16,13 +16,13 @@ https://github.com/raleighguevarra
 - **Dark/Light Mode Switch**: Toggle between light and dark modes for better accessibility.
 - **Themes Selection**: Choose a visually appealing themes right out of the program.
 
--------------Limitations--------------------------------------------------
+Limitations:
 There are many limitations and future improvement and bugs in this program 
 since it is still "UNDER DEVELOPMENT".
 But for the students to learn how to code something like this, they can
 try to figure out how the program works!  
 Best of luck!!!
---------------------------------------------------------------------------
+
 
 ## Pre-requisites
 Before you begin, ensure you have met the following requirements:
