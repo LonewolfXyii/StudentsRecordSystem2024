@@ -12,7 +12,6 @@ WIDTH = 1250
 
 def MainWindow():
     
-    
     root = CTR.CTk()
     root.geometry((F"{WIDTH}x{HEIGHT}"))
     root.title("Students Record System by Nesjohn, xyii@live.com.ph")
@@ -139,8 +138,10 @@ def MainWindow():
     buttn_lightsoff.grid(row=0,column=2, sticky="ne", pady= 12, padx=12)
     buttn_remove_stud = SRSFunc.AdminOnlyAccess(master=maintreeview_frame1, width=40, height=30, text="REMOVE SELECTED", font=my_font_Btn2, state="normal",  command=lambda: SRSFunc.remove_selected(tree1, SRSFunc.students))
     buttn_remove_stud.place(relx=0.79, rely=0.85, anchor=TK.CENTER, relwidth=0.28)
-    buttn_update_stud = SRSFunc.AdminOnlyAccess(master=maintreeview_frame1, width=40, height=30, text="UPDATE DATA", font=my_font_Btn2, state="disabled", command=lambda: SRSFunc.remove_selected)
+    buttn_update_stud = SRSFunc.AdminOnlyAccess(master=maintreeview_frame1, width=40, height=30, text="UPDATE DATA", font=my_font_Btn2, state="disabled")
     buttn_update_stud.place(relx=0.49, rely=0.85, anchor=TK.CENTER, relwidth=0.28)
+    buttn_update_grad = SRSFunc.AdminOnlyAccess(master=maintreeview_frame2, width=40, height=30, text="UPDATE DATA", font=my_font_Btn2, state="normal", command=lambda: SRSFunc.COURSES_UPDATE())
+    buttn_update_grad.place(relx=0.49, rely=0.85, anchor=TK.CENTER, relwidth=0.28)
 
 # MENU #
     buttn_mystudents= CTR.CTkButton(master=mainframe1, width=160, height=48, text="STUDENTS", font=my_font_Btn, border_width=5, command=lambda: toggle_tree1())
