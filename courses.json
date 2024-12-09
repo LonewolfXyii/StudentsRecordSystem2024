@@ -1,0 +1,8 @@
+[
+  {"course_id": "GEC111", "course_desc": "Understanding the Self", "credits": 3, "activities": ["assignment", "quiz", "exam"]},
+  {"course_id": "ITE112", "course_desc": "Computer Programing 1", "credits": 3, "activities": ["assignment", "quiz", "exam"]},
+  {"course_id": "ITE111", "course_desc": "Introduction to Computing", "credits": 3, "activities": ["assignment", "quiz", "exam"]},
+  {"course_id": "GEC112", "course_desc": "Mathematics In The Modern World", "credits": 3, "activities": ["assignment", "quiz", "exam"]},
+  {"course_id": "PE111", "course_desc": "Physical Education 1", "credits": 3, "activities": ["assignment", "quiz", "exam"]},
+  {"course_id": "NSTP111", "course_desc": "National Service Training Program 1", "credits": 3, "activities": ["assignment", "quiz", "exam"]}
+]

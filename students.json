@@ -1,0 +1,113 @@
+[
+  {
+    "Student_ID": 2024100001,
+    "First_Name": "Cedrick",
+    "Last_Name": "Somosot",
+    "Gender": "Female",
+    "Class": "BSIS",
+    "Credits Earned": 0,
+    "Tuition": "Paid",
+    "Image_Path": "Images/2024100001.jpg",
+    "enrolled_courses": [
+      "GEC111",
+      "ITE112"
+    ]
+  },
+  {
+    "Student_ID": 2024100002,
+    "First_Name": "Rashi May",
+    "Last_Name": "Montesa",
+    "Gender": "Male",
+    "Class": "BSIS",
+    "Credits Earned": 0,
+    "Tuition": "Paid",
+    "Image_Path": "images/rashi.jpg",
+    "enrolled_courses": [
+      "ITE111",
+      "GEC112"
+    ]
+  },
+  {
+    "Student_ID": 2024100003,
+    "First_Name": "Michael",
+    "Last_Name": "Dela Paz",
+    "Gender": "Male",
+    "Class": "BSIS",
+    "Credits Earned": 0,
+    "Tuition": "Missing",
+    "Image_Path": "images/michaelpaz.jpg",
+    "enrolled_courses": [
+      "GEC111",
+      "ITE111"
+    ]
+  },
+  {
+    "Student_ID": 2024100004,
+    "First_Name": "Eugene",
+    "Last_Name": "Estrebillo",
+    "Gender": "Male",
+    "Class": "BSIS",
+    "Credits Earned": 0,
+    "Tuition": "Missing",
+    "Image_Path": "images/eugene.jpg",
+    "enrolled_courses": [
+      "ITE112",
+      "GEC112"
+    ]
+  },
+  {
+    "Student_ID": 2024100010,
+    "First_Name": "Annegielca",
+    "Last_Name": "Somosot",
+    "Gender": "Female",
+    "Class": "BFA",
+    "Credits Earned": 0,
+    "Tuition": "Missing",
+    "Image_Path": "Images/2024100010.jpg",
+    "enrolled_courses": []
+  },
+  {
+    "Student_ID": 2024100005,
+    "First_Name": "Jecho",
+    "Last_Name": "Peralta",
+    "Gender": "Male",
+    "Class": "BSIS",
+    "Credits Earned": 0,
+    "Tuition": "Paid",
+    "Image_Path": "Images/2024100005.jpg",
+    "enrolled_courses": []
+  },
+  {
+    "Student_ID": 2024100011,
+    "First_Name": "Isaac",
+    "Last_Name": "Martin",
+    "Gender": "Male",
+    "Class": "BFA",
+    "Credits Earned": 0,
+    "Tuition": "Paid",
+    "Image_Path": "Images/2024100011.png",
+    "enrolled_courses": []
+  },
+  {
+    "Student_ID": 202410007,
+    "First_Name": "Mica",
+    "Last_Name": "Collado",
+    "Gender": "LGBTQIA+",
+    "Class": "BFA",
+    "Credits Earned": 0,
+    "Tuition": "Missing",
+    "Image_Path": "Images/202410007.jpg",
+    "enrolled_courses": []
+  },
+  {
+    "Student_ID": 202410006,
+    "First_Name": "Mona",
+    "Last_Name": "Libot",
+    "Gender": "Female",
+    "Class": "BMA",
+    "Credits Earned": 0,
+    "Tuition": "Paid",
+    "Image_Path": "Images/202410006.jpg",
+    "enrolled_courses": []
+  }
+]

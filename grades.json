@@ -1,0 +1,74 @@
+[
+    {
+        "student_id": 2024100001,
+        "course_id": "GEC111",
+        "grades": {
+            "assignment": 70,
+            "quiz": 0,
+            "exam": 0
+        }
+    },
+    {
+        "student_id": 2024100001,
+        "course_id": "ITE112",
+        "grades": {
+            "assignment": 88,
+            "quiz": 90,
+            "exam": 89
+        }
+    },
+    {
+        "student_id": 2024100002,
+        "course_id": "ITE111",
+        "grades": {
+            "assignment": 80,
+            "quiz": 78,
+            "exam": 82
+        }
+    },
+    {
+        "student_id": 2024100002,
+        "course_id": "GEC112",
+        "grades": {
+            "assignment": 89,
+            "quiz": 87,
+            "exam": 85
+        }
+    },
+    {
+        "student_id": 2024100003,
+        "course_id": "GEC111",
+        "grades": {
+            "assignment": 95,
+            "quiz": 92,
+            "exam": 96
+        }
+    },
+    {
+        "student_id": 2024100003,
+        "course_id": "ITE111",
+        "grades": {
+            "assignment": 84,
+            "quiz": 82,
+            "exam": 86
+        }
+    },
+    {
+        "student_id": 2024100004,
+        "course_id": "ITE112",
+        "grades": {
+            "assignment": 91,
+            "quiz": 89,
+            "exam": 94
+        }
+    },
+    {
+        "student_id": 2024100004,
+        "course_id": "GEC112",
+        "grades": {
+            "assignment": 78,
+            "quiz": 76,
+            "exam": 80
+        }
+    }
+]
